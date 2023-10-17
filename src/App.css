@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.my-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.up-button {
+  background-color: black;
+  /* padding: 1.5rem; */
+  width: 60px;
+  height: 60px;
+  color: white;
+  border-radius: 180px;
+  border-color: transparent;
+  /* font-weight: 600; */
+  font-size: 24px;
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+}

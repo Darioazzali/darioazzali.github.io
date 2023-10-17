@@ -1,0 +1,50 @@
+#education {
+  > h1 {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 50px;
+  }
+
+  min-height: 100vh;
+}
+.educations-container {
+  p {
+    font-size: 22px;
+  }
+}
+
+.my-li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: start;
+  row-gap: 0.7rem;
+  padding-top: 1rem;
+  max-width: 560px;
+  margin: auto;
+}
+
+.education-details {
+  flex: 1 1 400px;
+}
+
+.education-title {
+  font-weight: 500;
+}
+
+.text-description {
+  font-weight: 300;
+}
+.date {
+  font-weight: 600;
+  flex: 1 1 150px;
+}
+@media only screen and (min-width: 1170px) {
+  #education {
+    > h1 {
+      font-size: 58px;
+      font-weight: 600;
+    }
+  }
+}
